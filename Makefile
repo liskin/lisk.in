@@ -9,4 +9,4 @@ _just_default_ $(MAKECMDGOALS) &::
 build-prod:
 	-git fetch --unshallow
 	_plugins/git-restore-mtime.py --commit-time
-	jekyll build --verbose --trace
+	bundle exec jekyll build --verbose --trace
