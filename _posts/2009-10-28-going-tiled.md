@@ -79,13 +79,13 @@ My workspace now looks like this:
 So, again, thanks and goodbye to Fluxbox, and I'm looking forward to having
 some fun with xmonad :-).
 
-[goingtiled1]:      https://store.lisk.in/tmp/perm/goingtiled_1.png
-[goingtiled1small]: https://store.lisk.in/tmp/perm/goingtiled_1_small.jpg
-[goingtiled2]:      https://store.lisk.in/tmp/perm/goingtiled_2.png
-[goingtiled2small]: https://store.lisk.in/tmp/perm/goingtiled_2_small.jpg
-[goingtiled3]:      https://store.lisk.in/tmp/perm/goingtiled_3.png
-[goingtiled3small]: https://store.lisk.in/tmp/perm/goingtiled_3_small.jpg
-[goingtiled4]:      https://store.lisk.in/tmp/perm/goingtiled_4.png
-[goingtiled4small]: https://store.lisk.in/tmp/perm/goingtiled_4_small.jpg
-[goingtiled5]:      https://store.lisk.in/tmp/perm/goingtiled_5.png
-[goingtiled5small]: https://store.lisk.in/tmp/perm/goingtiled_5_small.jpg
+[goingtiled1]:      {% include imgdir.txt %}/goingtiled_1.png
+[goingtiled1small]: {% include imgdir.txt %}/goingtiled_1_small.jpg
+[goingtiled2]:      {% include imgdir.txt %}/goingtiled_2.png
+[goingtiled2small]: {% include imgdir.txt %}/goingtiled_2_small.jpg
+[goingtiled3]:      {% include imgdir.txt %}/goingtiled_3.png
+[goingtiled3small]: {% include imgdir.txt %}/goingtiled_3_small.jpg
+[goingtiled4]:      {% include imgdir.txt %}/goingtiled_4.png
+[goingtiled4small]: {% include imgdir.txt %}/goingtiled_4_small.jpg
+[goingtiled5]:      {% include imgdir.txt %}/goingtiled_5.png
+[goingtiled5small]: {% include imgdir.txt %}/goingtiled_5_small.jpg

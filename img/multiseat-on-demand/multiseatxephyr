@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# defaults:
+GEOMETRY="1024x768"
+XDISPLAY=":1"
+
+# read parameters
+KBDEVENT=$1; shift
+MOUSEEVENT=$1; shift
+KBDXINPUT=$1; shift
+MOUSEXINPUT=$1; shift
+
+if [ "$?" != "0" ]; then
+    echo 'Usage: multiseatxephyr kbd_ev mouse_ev kbd_x mouse_x'
+    echo ' where kbd_ev   = /dev/input/eventN (keyboard, look at /proc/bus/input/devices)'
+    echo '       mouse_ev = /dev/input/eventN (mouse, ditto)'
+    echo '       kbd_x    = N (keyboard, look at id= in xinput list)'
+    echo '       mouse_x  = N (mouse, ditto)'
+    exit
+fi
+
+function disable {
+    xinput list-props "$1" | perl -ne 'if (/Device Enabled \((\d+)\):/){ print $1 }' | { read prop; xinput set-int-prop "$1" $prop 8 0; }
+}
+
+disable $KBDXINPUT
+disable $MOUSEXINPUT
+
+sudo Xephyr $XDISPLAY -audit 0 -ac -screen $GEOMETRY -keybd evdev,,device=$KBDEVENT -mouse evdev,,device=$MOUSEEVENT -dpi 96 -noreset -nolisten tcp &
+
+sleep 2
+
+export DISPLAY="$XDISPLAY"
+
+setxkbmap \
+    -model "pc105" \
+    -layout "us,cz" \
+    -variant "" \
+    -rules "evdev" \
+    -option "grp:switch" \
+    -option "grp:alt_shift_toggle" \
+    -option "grp_led:caps" \
+    -option "terminate:ctrl_alt_bksp"
+
+wait
