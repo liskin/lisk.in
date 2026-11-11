@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url("{{ "/styles/normalize.css" | relative_url }}");
-@import url("{{ "/styles/main.css" | relative_url }}");
-@import url("{{ "/styles/syntax.css" | relative_url }}");
-@import url("{{ "/styles/ansi2html.css" | relative_url }}");
+@import url("{% link styles/normalize.css %}");
+@import url("{% link styles/main.scss %}");
+@import url("{% link styles/syntax.scss %}");
+@import url("{% link styles/ansi2html.scss %}");

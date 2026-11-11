@@ -16,10 +16,10 @@ books, listen to music and taste beers.
 
 ## Hire me
 
-* See [my CV/Résumé]({{ "/cv/tomas-janousek-cv-resume.html" | relative_url }})
-  ([PDF version]({{ "/cv/tomas-janousek-cv-resume.pdf" | relative_url }})).
+* See [my CV/Résumé]({% link cv/tomas-janousek-cv-resume.html %})
+  ([PDF version]({% link cv/tomas-janousek-cv-resume.pdf %})).
 
-* Read [more about my strengths and quirks]({{ "/real-me/" | relative_url }}).
+* Read [more about my strengths and quirks]({% link real-me.md %}).
 
 ## My FOSS contributions
 

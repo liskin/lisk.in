@@ -23,8 +23,8 @@ Coding professionally since 2002.
 </figure>
 
 If you believe you might want to hire me, see
-[my CV/Résumé]({{ "/cv/tomas-janousek-cv-resume.html" | relative_url }})
-([PDF version]({{ "/cv/tomas-janousek-cv-resume.pdf" | relative_url }})),
+[my CV/Résumé]({% link cv/tomas-janousek-cv-resume.html %})
+([PDF version]({% link cv/tomas-janousek-cv-resume.pdf %})),
 check my [GitHub][github-liskin]{:rel="me"} and [LinkedIn][linkedin-pivnik]{:rel="me"}
 profiles and the following sections about my [strengths](#strengths) and
 [quirks](#quirks) to get a better idea whether we'd be a good fit[^contact].
@@ -37,7 +37,7 @@ profiles and the following sections about my [strengths](#strengths) and
 
 [github-liskin]: https://github.com/liskin
 [linkedin-pivnik]: https://www.linkedin.com/in/pivnik
-[contact]: {{ "/contact/" | relative_url }}
+[contact]: {% link contact.md %}
 
 ## Strengths
 
