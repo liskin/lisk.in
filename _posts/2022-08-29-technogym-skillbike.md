@@ -483,7 +483,7 @@ I'd prefer to use a simple app like <https://auuki.com/> on my phone to
 control the Skillbike, but last time I checked, it couldn't control the
 Skillbike's resistance. It should be easy to look at how [qdomyos-zwift][]
 does it, and open a pull request to Auuki. If only I enjoyed indoor cycling
-enough to actually do that. 😆
+enough to actually do that. <emoji>😆</emoji>
 
 [intervals-power-range]: https://forum.intervals.icu/t/indoor-power-range-for-planned-garmin-activities/24976
 
