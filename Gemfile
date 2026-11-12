@@ -4,9 +4,9 @@ gem "jekyll", "~> 4.4.0"
 
 gem "jekyll-default-layout", "~> 0.2.1", group: :jekyll_plugins
 gem "jekyll-last-modified-at", "~> 1.3.2", group: :jekyll_plugins
-gem "jekyll-optional-front-matter", "~> 0.3.4", group: :jekyll_plugins
+gem "jekyll-optional-front-matter", "~> 0.3.5", group: :jekyll_plugins
 gem "jekyll-paginate", "~> 1.1.0", group: :jekyll_plugins
 gem "jekyll-redirect-from", "~> 0.17.0", group: :jekyll_plugins
-gem "jekyll-relative-links", "~> 0.9.1", group: :jekyll_plugins
+gem "jekyll-relative-links", "~> 0.9.2", group: :jekyll_plugins
 gem "jekyll-sitemap", "~> 1.4.0", group: :jekyll_plugins
-gem "jekyll-titles-from-headings", "~> 0.5.7", group: :jekyll_plugins
+gem "jekyll-titles-from-headings", "~> 0.6.0", group: :jekyll_plugins
